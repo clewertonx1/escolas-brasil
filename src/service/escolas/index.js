@@ -2,7 +2,8 @@ const axios = require('axios');
 
 async function getEscolasByNome(nome) {
     
-    const url = `http://educacao.dadosabertosbr.com/api/escolas/nome=${nome}`;
+    const url = `http://educacao.dadosabertosbr.com/api/escolas?nome=${nome}`;
+    console.log(url)
    
 
     try {

@@ -1,8 +1,8 @@
 const getEscolasByNome = require('../../service/escolas');
 
 async function getEscolasNome(nome){
-
-    if (nome.length !== 3) {
+    console.log(nome.length)
+    if (nome.length < 3) {
         return JSON.stringify({"error": "O nome deve ter no minino 3 caracteres."});
     }
 
