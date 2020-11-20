@@ -1,7 +1,7 @@
 "# escolas-brasil" 
 
 
-Api de busca a escolas do Brasil
+Module para busca de escolas do Brasil
 
 Install with npm install escolas-brasil
 
