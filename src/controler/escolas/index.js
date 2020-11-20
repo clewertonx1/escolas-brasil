@@ -18,4 +18,4 @@ async function getEscolasNome(nome){
 
 }
 
-module.exports = getCidadesEstado;
+module.exports = getEscolasNome;
