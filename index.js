@@ -1,10 +1,11 @@
 const escola = require('./src/busca-escolas')
 
-async function aaa(){
-    var teste = await escola.getEscolasByName('teste')
+/* Example usage
+async function example(){
+    const test = await escola.getEscolasByName('test')
     console.log(await teste)
 }
-
-aaa()
+example()
+*/
 
 module.exports = require('./src/busca-escolas')
